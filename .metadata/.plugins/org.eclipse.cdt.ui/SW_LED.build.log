@@ -1,0 +1,15 @@
+17:40:58 **** Clean-only build of configuration Default for project SW_LED ****
+make clean 
+rm -f ./src/startup.o ./src/low_level_init.o ./src/main.o
+rm -f SW_LED_rom.elf
+rm -f SW_LED_rom.map
+rm -f SW_LED_rom.hex
+rm -f SW_LED_rom.bin
+rm -f ./src/low_level_init.c.bak ./src/main.c.bak
+rm -f ./src/low_level_init.lst ./src/main.lst
+rm -f ./src/startup.s.bak
+rm -f ./src/startup.lst
+rm -fR .dep
+
+17:40:58 Build Finished (took 236ms)
+

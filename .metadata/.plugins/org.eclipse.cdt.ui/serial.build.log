@@ -10,3 +10,6 @@ rm -f ./src/low_level_init.lst ./src/usart0.lst ./src/main.lst
 rm -f ./src/startup.s.bak
 rm -f ./src/startup.lst
 rm -fR .dep
+
+17:48:56 Build Finished (took 288ms)
+

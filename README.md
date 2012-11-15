@@ -13,6 +13,8 @@ I have used the following software tools to develop and test programs present in
 Instructions:
 -------------
 Instructions on setting up the hardware and software tools environment is documented on my blog here: 
+http://www.electronicsfaq.com/2012/11/blinky-and-printf-on-netduino-using.html
+
 The blog post above documents how to create your own Eclipse workspace and run blinky on your netduino.
 After you have done that, just delete that Eclipse workspace and clone a copy of this repository on your Windows PC using "Github for Windows" and try out all the programs contained here in.
 
@@ -23,7 +25,7 @@ Description of the programs contained in this repository
 - **blinky** Blinks the SMD LED present on the netduino board. Uses a delay loop.
 - **serial** Sends "Hello World" out on USART0 @ 115200 8-N-1. A USB to UART transceiver (e.g. FT232) must be connected to appropriate pins of USART0. (Read blog post linked to above)
 - **serial_printf** Sends "Hello World" out on USART0 @ 115200 8-N-1. Uses printf() to do so. The out put of printf() is directed to USART0. A USB to UART transceiver (e.g. FT232) must be connected to appropriate pins of USART0. (Read blog post linked to above)
-- **SW_LED** Toggle the SMD LED present on the netduino board with the switch which is also present on board the netduino.
+- **SW_LED** Toggle the SMD LED using the tactile switch, both of which are present onboard the netduino. The LED lights up when the switch is pressed and turns off when it is released.
 
 
 

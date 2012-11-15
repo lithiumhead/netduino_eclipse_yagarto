@@ -60,3 +60,19 @@ Caused by: org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY org.eclipse.cdt.core 1 0 2012-11-15 17:00:54.302
 !MESSAGE Indexed 'blinky' (0 sources, 0 headers) in 0.00 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2012-11-15 17:14:43.634 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.automotive.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.automotive.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-11-15 17:15:27.789
+!MESSAGE Indexed 'serial' (0 sources, 0 headers) in 0.00 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-11-15 17:15:49.520
+!MESSAGE Indexed 'serial_printf' (0 sources, 0 headers) in 0.00 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-11-15 17:16:06.638
+!MESSAGE Indexed 'SW_LED' (0 sources, 0 headers) in 0.00 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
