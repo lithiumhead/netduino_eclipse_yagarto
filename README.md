@@ -16,8 +16,8 @@ Instructions on setting up the hardware and software tools environment is docume
 The blog post above documents how to create your own Eclipse workspace and run blinky on your netduino.
 After you have done that, just delete that Eclipse workspace and clone a copy of this repository on your Windows PC using "Github for Windows" and try out all the programs contained here in.
 
-Dscription of the programs contained in this repository
--------------------------------------------------------
+Description of the programs contained in this repository
+--------------------------------------------------------
 
 - **schematic** This folder does not contain any source code. It contains a PDF and Fritzing source of the connection diagram of my hardware setup that I used to develop these programs.
 - **blinky** Blinks the SMD LED present on the netduino board. Uses a delay loop.

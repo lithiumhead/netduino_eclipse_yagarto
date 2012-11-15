@@ -1,0 +1,12 @@
+17:01:49 **** Clean-only build of configuration Default for project blinky ****
+make clean 
+rm -f ./src/startup.o ./src/low_level_init.o ./src/main.o
+rm -f blinky_rom.elf
+rm -f blinky_rom.map
+rm -f blinky_rom.hex
+rm -f blinky_rom.bin
+rm -f ./src/low_level_init.c.bak ./src/main.c.bak
+rm -f ./src/low_level_init.lst ./src/main.lst
+rm -f ./src/startup.s.bak
+rm -f ./src/startup.lst
+rm -fR .dep
